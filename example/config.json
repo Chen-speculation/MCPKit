@@ -1,0 +1,19 @@
+{
+  "servers": {
+    "echo_server": {
+      "command": "go",
+      "args": [
+        "run",
+        "./mcp_echo_server/main.go" 
+      ],
+      "transport": "stdio",
+      "workingDir": "." 
+    },
+    "filesystem_server": {
+       "command": "npx",
+       "args": ["-y", "@modelcontextprotocol/server-filesystem", "./example_fs_data"],
+       "transport": "stdio",
+       "workingDir": "."
+     }
+  }
+} 
