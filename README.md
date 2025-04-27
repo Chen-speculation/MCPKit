@@ -1,4 +1,4 @@
-Refer to https://github.com/mark3labs/mcphost
+inspiration from https://github.com/mark3labs/mcphost
 
 **English**
 
