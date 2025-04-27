@@ -20,8 +20,8 @@ func main() {
 	openaiAPIKey := flag.String("openai-key", os.Getenv("OPENAI_API_KEY"), "OpenAI API Key (or env var OPENAI_API_KEY)")
 	openaiBaseURL := flag.String("openai-url", os.Getenv("OPENAI_BASE_URL"), "Optional: OpenAI compatible Base URL (or env var OPENAI_BASE_URL)")
 	modelName := flag.String("model", "gpt-4o", "LLM model name")
-	mcpConfigPath := flag.String("mcp-config", "./mcp_servers.json", "Path to MCP servers JSON configuration file")
-	userPrompt := flag.String("prompt", "", "User prompt for the LLM")
+	mcpConfigPath := flag.String("mcp-config", "./config.json", "Path to MCP servers JSON configuration file")
+	userPrompt := flag.String("prompt", "你是个助手，能调用工具,告诉我文件夹下有什么", "User prompt for the LLM")
 	logLevel := flag.String("log-level", "info", "Log level (debug, info, warn, error)")
 
 	flag.Parse()
