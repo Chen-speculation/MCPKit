@@ -1,3 +1,5 @@
+Refer to https://github.com/mark3labs/mcphost
+
 **English**
 
 *   **Project Goal**: Implement an "MCP Engine" library in Go. This library allows Go applications to interface with Large Language Models (LLMs) and dynamically utilize tools exposed by external MCP Servers (processes or services adhering to the Model Context Protocol).
